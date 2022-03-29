@@ -36,9 +36,7 @@ include'inc/nav.php';
 						    <div class="item">
 						      <img src="img/33.jpg" alt="New York" width="100%" height="450px">
 						    </div>
-						    <div class="item">
-						      <img src="img/44.jpg" alt="New York" width="100%" height="450px">
-						    </div>
+						    
 						     
 						  </div>
 
