@@ -26,22 +26,20 @@ include'inc/nav.php';
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <img src="img/1.jpg" alt="Los Angeles"width="100%"height="450px">
+						      <img src="img/1.jpg" alt="Los Angeles" width="100%" height="350px">
 						    </div>
 
 						    <div class="item">
-						      <img src="img/22.jpg" alt="Chicago"width="100%"height="450px">
+						      <img src="img/22.jpg" alt="Chicago" width="100%" height="450px">
 						    </div>
 
 						    <div class="item">
-						      <img src="img/33.jpg" alt="New York"width="100%"height="450px">
+						      <img src="img/33.jpg" alt="New York" width="100%" height="450px">
 						    </div>
 						    <div class="item">
-						      <img src="img/44.jpg" alt="New York"width="100%"height="450px">
+						      <img src="img/44.jpg" alt="New York" width="100%" height="450px">
 						    </div>
-						    <div class="item">
-						      <img src="img/5.jpg" alt="New York"width="100%"height="450px">
-						    </div>
+						     
 						  </div>
 
 						  <!-- Left and right controls -->

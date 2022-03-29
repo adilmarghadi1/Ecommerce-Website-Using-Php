@@ -1,33 +1,4 @@
-/*------------------------------------------------------------------
-Theme Name: BARBER THEME
-Version:	1.0
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
-
-	1. Global Styles
-	2. Bootstrap Class Overwrite Styles
-		2.1. Home Navigation Styles
-		2.2. Blog Navigation Styles
-	3. New Class Add Styles  
-		3.1. Common Class Styles 
-		3.2. Header Styles
-	4. Home Page Styles 
-		4.1. Common Title-Bar Styles
-		4.2. About Us Section Styles
-		4.3. Services Section Styles
-		4.4. Barbers-Team Section Styles
-		4.5. Gallery Section Styles
-		4.6. Pricing Section Styles
-		4.7. Blog Section Styles
-		4.8. Contact Section Styles 
-	
-	5. Blog Page Styles
-		5.1. Blog Footer Start
-		
-	6. Footer Start Styles
-
--------------------------------------------------------------------*/
+ 
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
@@ -37,7 +8,6 @@ Version:	1.0
 @import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Arvo);
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
-/* 1. Global Styles */
 
 * {
 	padding: 0;
@@ -86,7 +56,6 @@ a:hover {
 #wrapper {
 }
 
-/* 1. Global Styles */
 
 #intro {
 	height:100vh;
@@ -95,11 +64,6 @@ a:hover {
 
 
 
-/* 2. ========== Bootstrap Class Overwrite Start ==========*/
-
-
-
-/* 2.1. ========== Home Navigation Start ==========*/
 .navbar-inverse {
 	border:none;
 	background:none;
@@ -5251,3 +5215,5 @@ color:#ef7c00 !important;
     width: 250px !important;
     height: 250px !important;
 }
+
+ 
