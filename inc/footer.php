@@ -11,7 +11,6 @@
 			</div>
 		</div>
 	</footer>
-	<!-- FOOTER -->
 </div>
 
 
