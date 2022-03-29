@@ -17,16 +17,6 @@ if(isset($_POST) & !empty($_POST)){
 	$orderid=filter_var($_POST['orderid'], FILTER_SANITIZE_NUMBER_INT);
 
 	$cancel=filter_var($_POST['cancel'], FILTER_SANITIZE_STRING);
-	// echo"<pre>";
-	// print_r($_POST);
-	
-	// echo"</pre>";
-	// $sql="SELECT * FROM user_meta WHERE uid='$uid' ";
-	// $res=mysqli_query($conn,$sql);
-	// $row=mysqli_fetch_assoc($res);
-	// $count=mysqli_num_rows($res);
-	// if($count == 1){
-		// update user data
 		 $usql="INSERT INTO ordertracing (orderid,status,message) VALUES('$orderid','Cancelled','$cancel')";
 		 $ures=mysqli_query($conn,$usql);
 		if($ures){
@@ -38,7 +28,6 @@ if(isset($_POST) & !empty($_POST)){
 		 
 		
 	}
-// }
 }
  ?>	
 
