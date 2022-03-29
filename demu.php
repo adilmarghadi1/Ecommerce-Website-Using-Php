@@ -77,20 +77,12 @@ include'inc/nav.php';
 						<!-- Pagination -->
 						
 						<div class="page_nav">
-							<!-- <a href=""><i class="fa fa-angle-left"></i></a> -->
-							<!-- <a href="" class="active">1</a> -->
 							<?php
 							
 							for ($page=1; $page <=$total_page ; $page++) { 
 								
 							?>
 							<a href="demu.php?cid=<?php if(isset($_GET['cid'])){echo $id=$_GET['cid'];}?>&page=<?php echo $page; ?>"style="display: inline-block;"><?php echo $page; ?></a>
-							<!-- <a href="">3</a> --><!-- 
-							<a class="no-active">...</a> -->
-							<!-- <a href="">9</a> -->
-							<!-- <a href=""><i class="fa fa-angle-right"></i></a> -->
-						
-						<!-- End Pagination -->
 					<?php } ?>
 					</div>
 					</div>
