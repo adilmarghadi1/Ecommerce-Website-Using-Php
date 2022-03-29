@@ -24,15 +24,6 @@ if(isset($_POST) & !empty($_POST)){
 	$state=filter_var($_POST['state'], FILTER_SANITIZE_STRING);
 	$zip=filter_var($_POST['zip'], FILTER_SANITIZE_NUMBER_INT);
 	$mobile=filter_var($_POST['mobile'], FILTER_SANITIZE_NUMBER_INT);
-	// echo"<pre>";
-	// print_r($_POST);
-	
-	// echo"</pre>";
-	// $sql="SELECT * FROM user_meta WHERE uid='$uid' ";
-	// $res=mysqli_query($conn,$sql);
-	// $row=mysqli_fetch_assoc($res);
-	// $count=mysqli_num_rows($res);
-	// if($count == 1){
 		// update user data
 		 $usql="UPDATE user_meta SET country='$country', first='$first', last='$last', company='$company', address1='$address1', address2='$address2', city='$city', state='$state', zip='$zip', mobile='$mobile' WHERE uid=$uid";
 		 $ures=mysqli_query($conn,$usql);
@@ -41,7 +32,6 @@ if(isset($_POST) & !empty($_POST)){
 		 
 		
 	}
-// }
 }
  ?>	
 
