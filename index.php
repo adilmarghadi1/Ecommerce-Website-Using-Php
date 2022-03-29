@@ -30,14 +30,14 @@ include'inc/nav.php';
 						    </div>
 
 						    <div class="item">
-						      <img src="img/2.jpg" alt="Chicago"width="100%"height="450px">
+						      <img src="img/22.jpg" alt="Chicago"width="100%"height="450px">
 						    </div>
 
 						    <div class="item">
-						      <img src="img/3.jpg" alt="New York"width="100%"height="450px">
+						      <img src="img/33.jpg" alt="New York"width="100%"height="450px">
 						    </div>
 						    <div class="item">
-						      <img src="img/4.jpg" alt="New York"width="100%"height="450px">
+						      <img src="img/44.jpg" alt="New York"width="100%"height="450px">
 						    </div>
 						    <div class="item">
 						      <img src="img/5.jpg" alt="New York"width="100%"height="450px">
